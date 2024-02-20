@@ -1,9 +1,8 @@
 'use strict';
 
-
 const nunjucks  = require('nunjucks');
 const nunjucksMarkdown  = require('nunjucks-markdown');
-const { marked }  = require('marked');
+const marked  = require('marked');
 const path = require('path');
 
 const helper = require('../helper');
